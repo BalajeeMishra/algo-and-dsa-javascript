@@ -1,9 +1,9 @@
 # algo-and-dsa-javascript
 
-#singly linked list,
-#doubly linked lists,
-#stack and queues,
-#tree,
+#singly linked list:
+#doubly linked lists:
+#stack and queues:
+#tree:
 #Binary trees): Parent node of This type of trees having atmost 2 children.
 #Binary search tree):
 same as binary tree with left child and right child is always less than and greater than parent element respectively.
