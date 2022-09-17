@@ -1,0 +1,1 @@
+Searching is faster in avl tree because it is more height balanced but insertion and deletion is faster in red black tree.
