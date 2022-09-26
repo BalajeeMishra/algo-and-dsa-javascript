@@ -11,3 +11,20 @@ Searching is faster in avl tree because it is more height balanced but insertion
                 a) If color is black or null then do suitable rotation and recolor
                 b)If color is red then recolor and also check parent's parent of new node is not root node then recolor it and recheck.
                 
+                                      Deletion in red black tree
+                                      
+        * perform bst deletion
+        * if node to be deleted is red, just delete it.
+        * if db's sibling is black and both its children are black
+        ---> remove db
+        ---> add black to its parent.
+        if parent is red it become black.
+        if p is black it become double black.
+        ----> make sibling red 
+        --->if still db exist apply other cases
+    case4 
+           if db sibling is red.
+           swap color of parent and its sibling.
+           rotate parent in db direction 
+           reapply cases.
+           
